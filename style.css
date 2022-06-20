@@ -1,0 +1,32 @@
+.tik-tak {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px;
+
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  color: rgb(0, 0, 0);
+  line-height: 2;
+}
+
+.tik-tak > div {
+  align-self: stretch;
+  justify-self: stretch;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 25px;
+}
+
+.tik-tak > :nth-child(1) {
+  background-color: rgb(171, 255, 82);
+}
+
+.tik-tak > :nth-child(5) {
+  background-color: rgb(171, 255, 82);
+}
+
+.tik-tak > :nth-child(9) {
+  background-color: rgb(171, 255, 82);
+}
